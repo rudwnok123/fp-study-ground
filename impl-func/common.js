@@ -16,7 +16,7 @@ $combo_item.addEventListener('click',function(e){
 })
 
 function _each(list,iter){
-  for(var i 0;i<list.length; i++){
+  for(var i=0;i<list.length; i++){
     iter(list[i]);
   }
   return list;
